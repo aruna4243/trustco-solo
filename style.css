@@ -6,6 +6,7 @@
     --accent-color: #28a745;
     --background-color: #F2F5F6;
     --text-color: #12141D;
+
     --border-color: #dee2e6;
 
     /* Font Sizes */
@@ -29,6 +30,7 @@
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
+
 /* Apply Box Sizing */
 *,
 *::before,
@@ -39,6 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 html, body {
+
     font-family: 'Lato', sans-serif;
     font-size: var(--font-size-base);
     color: var(--text-color);
@@ -177,8 +180,6 @@ button {
 .hero-content h1 .highlight-text {
     color: var(--primary-color); 
 }
-
-
 
 
 
