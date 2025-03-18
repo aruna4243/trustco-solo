@@ -255,6 +255,24 @@ button {
         flex-direction: column;
         gap: 8px;
     }
+    .brands {
+        flex-direction: column; 
+        padding: 15% 0%; 
+        gap: var(--spacing-md); 
+    }
+
+    .brand-head {
+        text-align: center;
+    }
+
+    .brand-country {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center; 
+        align-items: center; 
+        gap: var(--spacing-md); 
+    }
+
 }
 
 /* Tablet Screens */
@@ -317,8 +335,21 @@ button {
     .mobl-herologo img {
         height: auto;
     }
-}
+    .brands {
+        flex-direction: column; 
+        padding: 5% 2.5%; 
+        gap: var(--spacing-md); 
+    }
 
+    .brand-head {
+        text-align: center;
+      
+    }
+
+    .brand-country {
+        gap: var(--spacing-xl); 
+    }
+}
 
 
 
