@@ -6,13 +6,13 @@
     --accent-color: #28a745;
     --background-color: #f2f5f6;
     --text-color: #12141d;
-  
+    --textSec-color: #F0B73F;
     --border-color: #dee2e6;
   
     /* Font Sizes */
     --font-size-base: 16px;
     --font-size-h1: 3.5em;
-    --font-size-h2: 1.75rem;
+    --font-size-h2: 3em;
     --font-size-h3: 1.5rem;
     --font-size-h4: 1.25rem;
     --font-size-h5: 1rem;
@@ -129,7 +129,6 @@
     justify-content: center;
     width: 100%;
     height: 86vh;
-
     gap: 24px;
     text-align: center;
   }
@@ -222,6 +221,44 @@
   .mobl-auth-buttons {
     padding: var(--spacing-md);
   }
+
+     #video-section {
+            background-color: var(--primary-color);
+            padding: 5% 5%;
+        }
+
+        /* Layout for video section */
+        .video-head {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+        }
+
+        /* Column 1 (Heading) */
+        .video-head h2 {
+            /* font-size: var(--font-size-h2, 2rem); */
+            line-height: 1.3;
+            color: white;
+            flex: 1;
+            text-align: left;
+        }
+
+        /* Column 2 (Paragraph) */
+        .video-head p {
+            font-size: var(--font-size-base, 1rem);
+            line-height: 1.8;
+            color: white;
+            flex: 1;
+            max-width: 390px;
+            text-align: left;
+        }
+
+        .video-img img {
+            width: 100%;
+            height: auto;
+        }
   /* Desktop Screens */
   @media (min-width: 1025px) {
     .navbar {
@@ -291,6 +328,15 @@
     .hero-content h1 .highlight-text {
       color: var(--primary-color);
     }
+    .video-head h1 {
+        font-size: var(--font-size-h1);
+        line-height: 64px;
+        text-align: left;
+      }
+  }
+  .video-img{
+    display: flex;
+    justify-content: center;
   }
   
   /* Mobile Screens */
@@ -373,6 +419,19 @@
       align-items: center;
       gap: var(--spacing-md);
     }
+    #video-section .video-head {
+        display: block;            /* Default block layout will stack the elements */
+      }
+      
+      #video-section .video-head h1 {
+        font-size: 2rem;           /* Adjust font size for smaller screens */
+        margin-bottom: 10px;       /* Space between h1 elements */
+      }
+      
+      #video-section .video-head p {
+        font-size: 1rem;           /* Smaller font size for mobile */
+        margin-top: 10px;          /* Space between the last h1 and paragraph */
+      }
 
   }
   
