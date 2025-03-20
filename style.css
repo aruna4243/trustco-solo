@@ -309,7 +309,19 @@ button {
   padding: 5% 15%;
   background: #ffffff;
 }
-
+#numbers {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 5% 15%;
+  background: #ffffff;
+}
+#numbers .card1 {
+  align-items: center;
+}
+#numbers .card1 h2 {
+  color: var(--primary-color);
+}
 .card1 {
   background: #ffffff !important;
   display: flex;
