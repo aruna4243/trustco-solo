@@ -610,7 +610,17 @@ button {
     grid-template-columns: 1fr;
     width: 100%;
   }
+  #numbers {
+  
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    padding: 12% 8%;
 
+  }
+  #numbers .card1{
+    gap: 0px;
+    padding: 0px;
+  }
   #building-bridges {
     display: flex;
     flex-direction: column-reverse;
@@ -754,5 +764,15 @@ button {
 
   .brand-country {
     gap: var(--spacing-xl);
+  }
+  #numbers {
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    padding: 12% 8%;
+
+  }
+  #numbers .card1{
+    gap: 0px;
+    padding: 0px;
   }
 }
