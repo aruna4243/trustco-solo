@@ -337,6 +337,14 @@ button {
   background: var(--primary-color);
   color: white;
 }
+.meet-btn {
+  width: 45%;
+  background: var(--primary-color);
+  color: white;
+}
+.meet-head{
+  font-weight: 700;
+}
 
 #benefits .para1 {
   max-width: 250px;
@@ -367,7 +375,7 @@ button {
   margin-bottom: 15px;
 }
 
-#building-bridges {
+#building-bridges, #meet-our-founder {
   display: flex;
   align-items: center;
   justify-content: space-between;
