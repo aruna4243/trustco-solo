@@ -331,12 +331,13 @@ button {
   max-width: 250px;
 }
 
+
 #benefits > div {
   background: rgb(225, 231, 233);
+
   padding: 20px;
   border-radius: 16px;
   height: fit-content;
-  width: fit-content;
 }
 
 .card2,
@@ -540,6 +541,7 @@ button {
     padding: 16px 24px;
     width: 100%;
     position: fixed;
+    z-index: 10;
     top: 0;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.8);
@@ -596,8 +598,22 @@ button {
   }
 
   #benefits {
+    padding: 5% 5%;
     grid-template-columns: 1fr;
+  
   }
+  .card1 {
+    background: #ffffff !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: start;
+    height: fit-content;
+    gap: 12px;
+    padding: 30px;
+  }
+
   /* #building-bridges {
     flex-direction: column;
     text-align: center;
@@ -638,6 +654,7 @@ button {
   .bridges-card p {
     font-size: 0.9rem;
   }
+
 }
 
 /* Tablet Screens */
@@ -646,7 +663,10 @@ button {
   .auth-buttons {
     display: none;
   }
-
+  .benefits-btn {
+    width: 70%;
+   
+  }
   .navbar {
     display: flex;
     justify-content: space-between;
