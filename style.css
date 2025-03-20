@@ -622,7 +622,7 @@ button {
   
     grid-template-columns: repeat(2, 1fr);
     width: 100%;
-    padding: 12% 8%;
+    padding: 20% 8% 3% 8%;
 
   }
   #numbers .card1{
@@ -634,6 +634,13 @@ button {
     flex-direction: column-reverse;
     text-align: center;
     padding: 0%;
+    gap: 20px;
+  }
+  #meet-our-founder {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5% 2%;
     gap: 20px;
   }
 
@@ -666,6 +673,13 @@ button {
     background: var(--primary-color);
     color: white;
     justify-self: center;
+  }
+  .meet-btn {
+    width: 100%;
+    background: var(--primary-color);
+    color: white;
+    justify-self: center;
+    font-size: var(--font-size-base);
   }
   #benefits {
     padding: 5% 5%;
@@ -704,6 +718,13 @@ button {
     background: var(--primary-color);
     color: white;
     justify-self: center;
+  }
+  .meet-btn {
+    width: 100%;
+    background: var(--primary-color);
+    color: white;
+    justify-self: center;
+    font-size: var(--font-size-base);
   }
   .navbar {
     display: flex;
